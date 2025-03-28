@@ -1,5 +1,6 @@
 # ignore all files in below directories
 node_modules/
-
+vendor/
 ios/
-android/app/build/intermediates/
+android/app/build/intermediates/cxx/Debug/
+android/app/build/intermediates/merged_native_libs/
