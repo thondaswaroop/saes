@@ -1,5 +1,5 @@
 # ignore all files in below directories
 node_modules/
-vendor/
+
 ios/
 android/app/build/intermediates/
