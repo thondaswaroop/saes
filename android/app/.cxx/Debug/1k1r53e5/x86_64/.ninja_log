@@ -1,0 +1,12 @@
+# ninja log v5
+21	84	1743135705024340071	build.ninja	71d822d3049eacb6
+0	22	0	/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/.cxx/Debug/1k1r53e5/x86_64/CMakeFiles/cmake.verify_globs	fb640693b5151d4c
+0	1670	1743135537378673302	CMakeFiles/appmodules.dir/OnLoad.cpp.o	5712753148c7acc2
+0	1511	1743135537217408617	CMakeFiles/appmodules.dir/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	d798907dd5dff65f
+1671	1768	1743135537480919898	/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/build/intermediates/cxx/Debug/1k1r53e5/obj/x86_64/libappmodules.so	42085ee0ca3d7ee1
+0	14	0	clean	d65c4b7b387d92aa
+0	29	0	/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/.cxx/Debug/1k1r53e5/x86_64/CMakeFiles/cmake.verify_globs	fb640693b5151d4c
+5	1480	1743135706579042636	CMakeFiles/appmodules.dir/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	d798907dd5dff65f
+5	1639	1743135706737703509	CMakeFiles/appmodules.dir/OnLoad.cpp.o	5712753148c7acc2
+1639	1713	1743135706815076201	/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/build/intermediates/cxx/Debug/1k1r53e5/obj/x86_64/libappmodules.so	42085ee0ca3d7ee1
+1	17	0	/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android/app/.cxx/Debug/1k1r53e5/x86_64/CMakeFiles/cmake.verify_globs	fb640693b5151d4c
