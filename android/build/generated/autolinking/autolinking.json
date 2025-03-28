@@ -1,8 +1,274 @@
 {
-  "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm",
-  "reactNativePath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/node_modules/react-native",
+  "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes",
+  "reactNativePath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native",
   "reactNativeVersion": "0.78",
-  "dependencies": {},
+  "dependencies": {
+    "@react-native-async-storage/async-storage": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-async-storage/async-storage",
+      "name": "@react-native-async-storage/async-storage",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
+          "version": "2.1.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-async-storage/async-storage/android",
+          "packageImportPath": "import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;",
+          "packageInstance": "new AsyncStoragePackage()",
+          "buildTypes": [],
+          "libraryName": "rnasyncstorage",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "@react-native-masked-view/masked-view": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-masked-view/masked-view",
+      "name": "@react-native-masked-view/masked-view",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-masked-view/masked-view/RNCMaskedView.podspec",
+          "version": "0.3.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-masked-view/masked-view/android",
+          "packageImportPath": "import org.reactnative.maskedview.RNCMaskedViewPackage;",
+          "packageInstance": "new RNCMaskedViewPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/@react-native-masked-view/masked-view/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-fs": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-fs",
+      "name": "react-native-fs",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-fs/RNFS.podspec",
+          "version": "2.20.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-fs/android",
+          "packageImportPath": "import com.rnfs.RNFSPackage;",
+          "packageInstance": "new RNFSPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-fs/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-gesture-handler": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "2.24.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-gesture-handler/android",
+          "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "libraryName": "rngesturehandler_codegen",
+          "componentDescriptors": [
+            "RNGestureHandlerButtonComponentDescriptor",
+            "RNGestureHandlerRootViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-loader-kit": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-loader-kit",
+      "name": "react-native-loader-kit",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-loader-kit/react-native-loader-kit.podspec",
+          "version": "2.0.8",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-loader-kit/android",
+          "packageImportPath": "import com.reactnativeloaderkit.LoaderKitPackage;",
+          "packageInstance": "new LoaderKitPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-loader-kit/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-reanimated": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-reanimated",
+      "name": "react-native-reanimated",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-reanimated/RNReanimated.podspec",
+          "version": "3.17.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-reanimated/android",
+          "packageImportPath": "import com.swmansion.reanimated.ReanimatedPackage;",
+          "packageInstance": "new ReanimatedPackage()",
+          "buildTypes": [],
+          "libraryName": "rnreanimated",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-safe-area-context": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-safe-area-context",
+      "name": "react-native-safe-area-context",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "version": "5.3.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-safe-area-context/android",
+          "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
+          "packageInstance": "new SafeAreaContextPackage()",
+          "buildTypes": [],
+          "libraryName": "safeareacontext",
+          "componentDescriptors": [
+            "RNCSafeAreaProviderComponentDescriptor",
+            "RNCSafeAreaViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-screens": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "4.10.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-screens/android",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()",
+          "buildTypes": [],
+          "libraryName": "rnscreens",
+          "componentDescriptors": [
+            "RNSFullWindowOverlayComponentDescriptor",
+            "RNSScreenContainerComponentDescriptor",
+            "RNSScreenNavigationContainerComponentDescriptor",
+            "RNSScreenStackHeaderConfigComponentDescriptor",
+            "RNSScreenStackHeaderSubviewComponentDescriptor",
+            "RNSScreenStackComponentDescriptor",
+            "RNSSearchBarComponentDescriptor",
+            "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
+            "RNSModalScreenComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-share": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-share",
+      "name": "react-native-share",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-share/RNShare.podspec",
+          "version": "12.0.9",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-share/android",
+          "packageImportPath": "import cl.json.RNSharePackage;",
+          "packageInstance": "new RNSharePackage()",
+          "buildTypes": [],
+          "libraryName": "RNShareSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-vector-icons": {
+      "root": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "version": "10.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-vector-icons/android",
+          "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "libraryName": "RNVectorIconsSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    }
+  },
   "commands": [
     {
       "name": "bundle",
@@ -165,7 +431,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm"
+          "default": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes"
         },
         {
           "name": "--platform <string>",
@@ -457,7 +723,7 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/ios",
+      "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/ios",
       "xcodeProject": {
         "name": "amruthaEm.xcworkspace",
         "path": ".",
@@ -466,7 +732,7 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/amruthaEm/android",
+      "sourceDir": "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/android",
       "appName": "app",
       "packageName": "com.amruthaem",
       "applicationId": "com.amruthaem",

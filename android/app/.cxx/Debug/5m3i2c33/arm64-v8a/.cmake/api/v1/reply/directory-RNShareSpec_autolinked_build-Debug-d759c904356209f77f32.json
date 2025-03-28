@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "RNShareSpec_autolinked_build",
+		"source" : "/Users/saiswaroop.thonda/Documents/poc/reactnative/1/demo1/saes/CodeBase/saes/node_modules/react-native-share/android/build/generated/source/codegen/jni"
+	}
+}
