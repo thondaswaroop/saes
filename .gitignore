@@ -2,5 +2,4 @@
 node_modules/
 # vendor/
 # ios/
-android/app/build/intermediates/cxx/Debug/
-android/app/build/intermediates/merged_native_libs/
+android/
